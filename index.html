@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <title>Yummy</title>
+
+    <!-- -----------FONT AWESOME FILE------------ -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- -----------BOOTSTRAP FILE--------------- -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- ---------------CSS FILE--------------- -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!----------START FIXED NAV-------------->
+    <nav class="d-flex">
+        <div class="d-flex flex-column justify-content-between sideBar">
+            <ul class="mt-4">
+                <li class="position-relative">Search</li>
+                <li class="position-relative">Categories</li>
+                <li class="position-relative">Area</li>
+                <li class="position-relative">Ingredients</li>
+                <li class="position-relative">Contact Us</li>
+            </ul>
+            <div class="p-3 text-white">
+                <div class="d-flex justify-content-evenly py-3">
+                    <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-solid fa-globe"></i>
+                </div>
+                <div>
+                    <p class="text-capitalize">copyright &copy; 2023 all rights reserved.</p>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-column justify-content-between align-items-center py-3 px-1 bg-white">
+            <div>
+                <img class="logo" src="./images/logo.png" alt="logo">
+            </div>
+            <div>
+                <i class="fa-solid fa-bars fa-2x openSideBar"></i>
+                <i class="fa-solid fa-xmark fa-2x closeSideBar d-none"></i>
+            </div>
+            <div>
+                <div><i class="fa-solid fa-globe"></i></div>
+                <div><i class="fa-solid fa-share-nodes"></i></div>
+            </div>
+        </div>
+    </nav>
+    <!------------END FIXED NAV-------------->
+    
+    <section class="p-5">
+        <div class="container p-3">
+            <div class="row" id="searchPlace">
+                
+
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row gy-4" id="mealData">
+
+            </div>
+        </div>
+
+
+
+
+        <!-- -----------LOADING PAGE------------ -->
+        <div class="loading d-none">
+            <span class="loader"></span>
+        </div>
+    </section>
+
+
+    <!-- --------------BOOTSTRAP FILE----------- -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- ---------------JQUERY LIBRARY------------- -->
+    <script src="./js/jquery-3.6.3.min.js"></script>
+    <!-- ------------------JS FILE-------------- -->
+    <script src="./js/index.js"></script>
+</body>
+</html>

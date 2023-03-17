@@ -1,0 +1,124 @@
+details :
+
+
+                <div class="col-md-4">
+                    <img class="w-100 rounded-2" src="" alt="imgDetail">
+                    <h2></h2>
+                </div>
+                <div class="col-md-8">
+                    <h2>Instructions</h2>
+                    <p></p>
+                    <h3><span>Area : </span></h3>
+                    <h3><span>Category : </span></h3>
+                    <h3>Recipes : </h3>
+                    <ul class="list-unstyled d-flex flex-wrap g-3"></ul>
+                    <h3>Tags : </h3>
+                    <ul class="list-unstyled d-flex flex-wrap g-3"></ul>
+                    <a href="" target="_blank" class="btn btn-success">Source</a>
+                    <a href="" target="_blank" class="btn btn-danger">Youtube</a>
+                </div>
+
+
+displayMeal :
+                <div class="col-md-3">
+                    <div class="position-relative overflow-hidden rounded-2 meal">
+                        <img src="" alt="">
+                        <div class="position-absolute layer d-flex align-items-center p-2 text-black">
+                            <h3></h3>
+                        </div>
+                    </div>
+                </div>
+
+
+diplayCategory : 
+
+                <div class="col-md-3">
+                    <div class="position-relative overflow-hidden rounded-2 meal">
+                        <img src="" alt="">
+                        <div class="position-absolute layer d-flex align-items-center p-2 text-black">
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+
+
+displayArea : 
+
+                <div class="col-md-3">
+                    <div>
+                        <i class="fa-solid fa-house-laptop fa-4x"></i>
+                        <h4></h4>
+                    </div>
+                </div>
+
+
+displayIngredients:
+
+                <div class="col-md-3">
+                    <i class="fa-solid fa-drumstick-bite fa-4x"></i>
+                    <h2></h2>
+                    <p></p>
+                </div>
+
+
+displaySearchInputs : 
+
+                <div class="col-md-6">
+                    <div class="w-100 p-2">
+                        <input type="text" placeholder="Search By Name" class="w-100 rounded">
+                    </div>
+                    
+                </div>
+                <div class="col-md-6">
+                    <div class="w-100 p-2">
+                        <input type="text" placeholder="Search By First Letter" class="w-100 rounded">
+                    </div>
+                    
+                </div>
+
+contactForm:
+
+            <div class="contact d-flex justify-content-center align-items-center min-vh-100">
+                <div class="container w-75 text-center">
+                    <div class="row gy-3">
+                        <div class="col-md-6">
+                            <div class="w-100 p-2">
+                                <input id="inputName" type="text" placeholder="Enter Your Name" class="w-100 rounded">
+                            </div>
+                            <div id="nameAlert" class="mt-2 d-none w-100 alert alert-danger">Special Characters And Numbers Not Allowed</div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="w-100 p-2">
+                                <input id="inputEmail" type="text" placeholder="Enter Your Email" class="w-100 rounded">
+                            </div>
+                            <div id="emailAlert" class="mt-2 d-none w-100 alert alert-danger">Email Not Valid *exemple@yyy.zzz</div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="w-100 p-2">
+                                <input id="inputPhone" type="text" placeholder="Enter Your Phone" class="w-100 rounded">
+                            </div>
+                            <div id="phoneAlert" class="mt-2 d-none w-100 alert alert-danger">Enter A Valid Phone Number</div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="w-100 p-2">
+                                <input id="inputAge" type="number" placeholder="Enter Your Age" class="w-100 rounded">
+                            </div>
+                            <div id="ageAlert" class="mt-2 d-none w-100 alert alert-danger">Enter A Valid Age</div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="w-100 p-2">
+                                <input id="inputPassword" type="password" placeholder="Enter Your Password" class="w-100 rounded">
+                            </div>
+                            <div id="ageAlert" class="mt-2 d-none w-100 alert alert-danger text-capitalize">Enter A valid password *Minimum eight characters, at least one letter and one number:*</div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="w-100 p-2">
+                                <input id="inputRepassword" type="password" placeholder="Repassword" class="w-100 rounded">
+                            </div>
+                            <div id="ageAlert" class="mt-2 d-none w-100 alert alert-danger">Enter A Valid Repassword</div>
+                        </div>
+                    </div>
+                    <button id="submitBtn" disabled class="btn btn-outline-danger mt-3"></button>
+                </div>
+            </div>
